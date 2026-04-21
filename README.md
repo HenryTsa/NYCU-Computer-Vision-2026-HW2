@@ -111,7 +111,7 @@ multi_scale    : [448, 480, 512, 544, 576]
 ```bash
 # With DN Training (recommended)
 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True \
-python train_v2.py \
+python train_predict.py \
   --do_train \
   --use_dn \
   --device cuda:1 \
