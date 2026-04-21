@@ -9,7 +9,15 @@
 ![Leaderboard](Leader_board.png)
 
 ---
-
+### Conda Environment (recommended)
+ 
+```bash
+conda create -n detr_hw2 python=3.11 -y
+conda activate detr_hw2
+pip install torch==2.6.0+cu118 torchvision==0.21.0+cu118 \
+    --index-url https://download.pytorch.org/whl/cu118
+pip install pycocotools scipy matplotlib tqdm pillow scikit-learn opencv-python
+```
 ## Task Overview
 
 Detect and classify digits **0–9** in street-view images using an end-to-end object detector.  
