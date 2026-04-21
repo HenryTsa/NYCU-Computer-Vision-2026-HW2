@@ -132,7 +132,7 @@ python detr_ablation.py \
 ### Inference
 
 ```bash
-python train_v2.py \
+python train_predict.py \
   --do_infer \
   --resume ./output_v2/best.pth \
   --device cuda:1 \
@@ -148,7 +148,7 @@ python train_v2.py \
 
 ```
 .
-├── train_v2.py          # Improved model (DN + MixUp + HFlip)
+├── train_predict.py     # Improved model (DN + MixUp + HFlip)
 ├── detr_ablation.py     # Baseline for ablation study
 ├── train.json           # COCO-format training annotations
 ├── valid.json           # COCO-format validation annotations
