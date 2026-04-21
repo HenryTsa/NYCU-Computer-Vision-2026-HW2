@@ -1,5 +1,6 @@
 # NYCU Deep Learning HW2 — Digit Detection with Deformable DETR
-
+- Student ID 314552047 
+- 蔡松豪
 ## Leaderboard Result
 
 | Rank | Student ID | Submission Time | Predictions | ID | mAP |
