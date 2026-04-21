@@ -3,9 +3,6 @@
 - 蔡松豪
 ## Leaderboard Result
 
-| Rank | Student ID | Submission Time | Predictions | ID | mAP |
-|------|------------|----------------|-------------|-----|-----|
-| 33 | 314552047 | 2026-04-21 08:48 | 689221 | 314552047 | **0.38** |
 
 ![Leaderboard](Leader_board.png)
 
