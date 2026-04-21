@@ -6,7 +6,7 @@
 |------|------------|----------------|-------------|-----|-----|
 | 33 | 314552047 | 2026-04-21 08:48 | 689221 | 314552047 | **0.38** |
 
-![Leaderboard](leaderboard.png)
+![Leaderboard](Leader_board.png)
 
 ---
 
@@ -48,7 +48,7 @@ Detect and classify digits **0–9** in street-view images using an end-to-end o
 
 ### With DN Training (dn_number=5)
 
-![DN Training Curves](dn_curves.png)
+![DN Training Curves](curves_DN.png)
 
 > Train loss starts higher (~18.5) due to extra DN loss terms but drops sharply. Val loss stabilises around **7.5** by epoch 20.
 
@@ -64,6 +64,20 @@ Detect and classify digits **0–9** in street-view images using an end-to-end o
 |---------|----------------|-------------|
 | Baseline (no DN) | ~10.0 | Slow |
 | + DN Training | ~7.5 | **Fast** ✅ |
+
+---
+
+## Confusion Matrix
+
+### With DN Training
+
+![Confusion Matrix DN](confusion_matrix_ep20.png)
+
+### Without DN Training (Baseline)
+
+![Confusion Matrix No-DN](confusion_matrix_no_dn.png)
+
+> Common confusion patterns: **1↔7** (similar vertical stroke), **6↔9** (rotation ambiguity), **0↔8** (similar oval shape).
 
 ---
 
